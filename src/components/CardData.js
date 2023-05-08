@@ -1,7 +1,5 @@
-import React, { useState } from 'react';
-
-const CardData = () =>
-  (cards = [
+const CardData = () => {
+  const cards = [
     {
       name: 'Aang',
       imgSrc: '../images/aang.jpeg',
@@ -74,6 +72,8 @@ const CardData = () =>
       id: 12,
       clicked: false
     }
-  ]);
+  ];
+  return cards;
+};
 
 export default CardData;
