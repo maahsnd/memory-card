@@ -1,74 +1,62 @@
 const CardData = () => {
   const cards = [
     {
-      name: 'Aang',
-      imgSrc: 'aang',
+      name: 'aang',
       id: 1,
       clicked: false
     },
     {
-      name: 'Iroh',
-      imgSrc: 'iroh',
+      name: 'iroh',
       id: 2,
       clicked: false
     },
     {
-      name: 'Katara',
-      imgSrc: 'katara',
+      name: 'katara',
       id: 3,
       clicked: false
     },
     {
-      name: 'Toph',
-      imgSrc: 'toph',
+      name: 'toph',
       id: 4,
       clicked: false
     },
     {
-      name: 'Sokka',
-      imgSrc: 'sokka',
+      name: 'sokka',
       id: 5,
       clicked: false
     },
     {
-      name: 'Zuko',
-      imgSrc: 'zuko',
+      name: 'zuko',
       id: 6,
       clicked: false
     },
     {
-      name: 'Appa',
-      imgSrc: 'appa',
+      name: 'appa',
       id: 7,
       clicked: false
     },
     {
-      name: 'CabbageMan',
-      imgSrc: 'cabbage',
+      name: 'cabbage',
       id: 8,
       clicked: false
     },
     {
-      name: 'Momo',
-      imgSrc: 'momo',
+      name: 'momo',
       id: 9,
       clicked: false
     },
     {
-      name: 'Bumi',
-      imgSrc: 'bumi',
+      name: 'bumi',
       id: 10,
       clicked: false
     },
     {
-      name: 'Jet',
-      imgSrc: 'jet',
+      name: 'jet',
       id: 11,
       clicked: false
     },
     {
-      name: 'Zhao',
-      imgSrc: 'zhao',
+      name: 'zhao',
       id: 12,
       clicked: false
     }

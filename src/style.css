@@ -5,14 +5,16 @@ img {
 }
 
 .imageGallery {
-
+    display: flex;
+    flex-wrap: wrap;
+    overflow-x: clip;
 }
 
 .card {
     border: 1px black solid;
     background-color: purple;
-    max-width: 275px;
-    max-height: 275px;
+    width: 275px;
+    height: 275px;
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -20,8 +20,12 @@ function App() {
     
      */
   return (
-    <div className="imageGalley">
-      <Randomize setScore={incrementScore} />
+    <div className="main">
+      <h2>Score: {currScore}</h2>
+      <h2>High Score: {bestScore}</h2>
+      <div className="imageGallery">
+        <Randomize setScore={incrementScore} />
+      </div>
     </div>
   );
 }
