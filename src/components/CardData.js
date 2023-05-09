@@ -1,5 +1,5 @@
 const CardData = () => {
-  const cards = [
+  let cards = [
     {
       name: 'aang',
       id: 1,
@@ -23,6 +23,7 @@ const CardData = () => {
     {
       name: 'sokka',
       id: 5,
+      value: 5,
       clicked: false
     },
     {

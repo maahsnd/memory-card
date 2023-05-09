@@ -3,12 +3,17 @@ import CardData from './CardData';
 import '../style.css';
 
 const Randomize = (props) => {
-  return CardData().map((card) => (
-    <div key={card.id} className="card">
-      <img src={require('../images/' + card.name + '.jpeg')} alt={card.name} />
+  const data = CardData().map((card) => (
+    <div className="card" onClick={props.onClick} key={card.id}>
+      <img
+        src={require('../images/' + card.name + '.jpeg')}
+        alt={card.name}
+        id={card.id}
+      />
       <h3>{card.name}</h3>
     </div>
   ));
+  return data;
 };
 
 export default Randomize;
