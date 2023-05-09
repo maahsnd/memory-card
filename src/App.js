@@ -19,9 +19,8 @@ function App() {
     reset all cardClicked = false
     
      */
-  console.log(Randomize);
   return (
-    <div>
+    <div className="imageGalley">
       <Randomize setScore={incrementScore} />
     </div>
   );

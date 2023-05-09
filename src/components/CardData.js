@@ -2,73 +2,73 @@ const CardData = () => {
   const cards = [
     {
       name: 'Aang',
-      imgSrc: '../images/aang.jpeg',
+      imgSrc: 'aang',
       id: 1,
       clicked: false
     },
     {
       name: 'Iroh',
-      imgSrc: '../images/iroh.jpeg',
+      imgSrc: 'iroh',
       id: 2,
       clicked: false
     },
     {
       name: 'Katara',
-      imgSrc: '../images/katar.jpeg',
+      imgSrc: 'katara',
       id: 3,
       clicked: false
     },
     {
       name: 'Toph',
-      imgSrc: '../images/toph.jpeg',
+      imgSrc: 'toph',
       id: 4,
       clicked: false
     },
     {
       name: 'Sokka',
-      imgSrc: '../images/sokka.jpeg',
+      imgSrc: 'sokka',
       id: 5,
       clicked: false
     },
     {
       name: 'Zuko',
-      imgSrc: '../images/zuko.jpeg',
+      imgSrc: 'zuko',
       id: 6,
       clicked: false
     },
     {
       name: 'Appa',
-      imgSrc: '../images/appa.jpeg',
+      imgSrc: 'appa',
       id: 7,
       clicked: false
     },
     {
       name: 'CabbageMan',
-      imgSrc: '../images/cabbage.jpeg',
+      imgSrc: 'cabbage',
       id: 8,
       clicked: false
     },
     {
       name: 'Momo',
-      imgSrc: '../images/momo.jpeg',
+      imgSrc: 'momo',
       id: 9,
       clicked: false
     },
     {
       name: 'Bumi',
-      imgSrc: '../images/bumi.jpeg',
+      imgSrc: 'bumi',
       id: 10,
       clicked: false
     },
     {
       name: 'Jet',
-      imgSrc: '../images/jet.jpeg',
+      imgSrc: 'jet',
       id: 11,
       clicked: false
     },
     {
       name: 'Zhao',
-      imgSrc: '../images/zhao.jpeg',
+      imgSrc: 'zhao',
       id: 12,
       clicked: false
     }
