@@ -15,6 +15,7 @@ img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-bottom: 5%;
 }
 
 .score {
@@ -35,6 +36,7 @@ img {
     grid-template: 80% 20% / 100%;
     justify-items:center;
     border-radius: 5px;
+    transition: all 0.2s ease-in-out;
 }
 
 .header {
@@ -94,7 +96,8 @@ h2{
             justify-content: center;
 }
 
-img:hover{
+.card:hover{
     cursor: pointer;
-    border: 5px gold double;
+    box-shadow: 0 0 45px whitesmoke;
 }
+
