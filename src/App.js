@@ -37,21 +37,25 @@ function App() {
     setCards(cardArr);
   };
 
-  /* onclick
-  if not clicked before (cardClicked = false):
-    increment current score,
-    set card clicked = true
-  if clicked before (cardClicked = true):
-    if currentScore > bestScore:
-      set bestScore = currentScore
-    set current score = 0,
-    reset all cardClicked = false
-    
-     */
   return (
-    <div className="main">
-      <h2>Score: {currScore}</h2>
-      <h2>High Score: {bestScore}</h2>
+    <div className="bg" style={{ backgroundImage: 'url(background.jpeg)' }}>
+      {' '}
+      <div className="header">
+        <div className="title">
+          <h1>Avatar Memory Game</h1>
+        </div>
+
+        <div className="score">
+          <h4>Score: {currScore}</h4>
+          <h4>High Score: {bestScore}</h4>
+        </div>
+        <div className="instructions">
+          <h2>
+            Get points by clicking on an image but don't click on any more than
+            once!
+          </h2>
+        </div>
+      </div>
       <div className="imageGallery">
         <Randomize
           setScore={incrementScore}

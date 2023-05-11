@@ -1,21 +1,100 @@
+@import url(//db.onlinewebfonts.com/c/002b944b211d383987536f1ecf684bca?family=Herculanum);
+
 img {
-    max-width: 265px;
-    max-height: 265px;
-    margin-top: 6px;
+
+    background-size: cover;
+        background-position: center;
+        width: 92%;
+        height: 80%;
+        margin-top: 3%;
+        border-radius: 5px;
+        border: 1.5px darkkhaki double;
 }
 
 .imageGallery {
     display: flex;
     flex-wrap: wrap;
-    overflow-x: clip;
+    justify-content: center;
+}
+
+.score {
+    width: fit-content;
+    margin-left: auto;
+    margin-right: 3%;
+    margin-top: 2%;
+    font-size: large;
 }
 
 .card {
-    border: 1px black solid;
-    background-color: purple;
+    border: 3px darkkhaki double;
+    background-color: #026e6870;
     width: 275px;
-    height: 275px;
+    height: 250px;
+    display: grid;
+    margin: .5%;
+    grid-template: 80% 20% / 100%;
+    justify-items:center;
+    border-radius: 5px;
+}
+
+.header {
+    display: grid;
+    border: 3px darkkhaki double;
+    background-color: #026e6870;
+    border-radius: 5px;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: 50% 50%;
+    color: rgb(0, 0, 0);
+}
+
+.instructions {
+    margin-top: 1%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
+    font-size: small;
+    margin-left: 2%;
+    margin-bottom: 3%;
+}
+
+h1, h4 {
+    margin-top: 0;
+    margin-bottom: 2%;
+    font-family: Papyrus, "Marker Felt", Copperplate;
+    width: fit-content;
+}
+h2{
+    font-family: Papyrus, "Marker Felt", Copperplate;
+    margin: 0;
+}
+
+.title {
+    font-size: x-large;
+    margin-left: 2%;
+    margin-bottom: 0;
+}
+
+.card>h2 {
+    font-family: Herculanum, "Eras Demi ITC", sans-serif;
+    font-weight: bold;
+    font-size: xx-large;
+    color: whitesmoke;
+    margin-top: -3%;
+}
+
+   body {
+    margin: 0;
+   }
+
+.bg {
+        display: grid;
+            grid-template: 13% 87%/ 100%;
+            padding-left: 3%;
+            padding-right: 3%;
+            row-gap: .5%;
+            padding-top: 1.5%;
+            justify-content: center;
+}
+
+img:hover{
+    cursor: pointer;
+    border: 5px gold double;
 }

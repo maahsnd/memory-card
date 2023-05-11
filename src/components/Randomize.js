@@ -16,7 +16,7 @@ const Randomize = (props) => {
         alt={card.name}
         id={card.id}
       />
-      <h3>{card.name}</h3>
+      <h2>{card.name}</h2>
     </div>
   ));
 
