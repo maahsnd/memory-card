@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/maahsnd/memory-card/static/css/main.047ca23b.css",
+    "main.js": "/maahsnd/memory-card/static/js/main.ba105e8a.js",
+    "static/media/background.jpeg": "/maahsnd/memory-card/static/media/background.3251fa1dd340dc08941a.jpeg",
+    "static/media/momo.jpeg": "/maahsnd/memory-card/static/media/momo.146aaa0233c839241dd4.jpeg",
+    "static/media/katara.jpeg": "/maahsnd/memory-card/static/media/katara.1282a9257537feac2090.jpeg",
+    "static/media/aang.jpeg": "/maahsnd/memory-card/static/media/aang.87c3c42e8cfb41f1f047.jpeg",
+    "static/media/iroh.jpeg": "/maahsnd/memory-card/static/media/iroh.44ab60b18d68b544494c.jpeg",
+    "static/media/appa.jpeg": "/maahsnd/memory-card/static/media/appa.ca2b66da20e7261dc9aa.jpeg",
+    "static/media/zuko.jpeg": "/maahsnd/memory-card/static/media/zuko.5c9e20e175f73b2094da.jpeg",
+    "static/media/sokka.jpeg": "/maahsnd/memory-card/static/media/sokka.a71c7e62e89fdcaee117.jpeg",
+    "index.html": "/maahsnd/memory-card/index.html",
+    "main.047ca23b.css.map": "/maahsnd/memory-card/static/css/main.047ca23b.css.map",
+    "main.ba105e8a.js.map": "/maahsnd/memory-card/static/js/main.ba105e8a.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.047ca23b.css",
+    "static/js/main.ba105e8a.js"
+  ]
+}

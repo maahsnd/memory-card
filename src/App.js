@@ -38,8 +38,7 @@ function App() {
   };
 
   return (
-    <div className="bg" style={{ backgroundImage: 'url(background.jpeg)' }}>
-      {' '}
+    <div className="bg">
       <div className="header">
         <div className="title">
           <h1>Avatar Memory Game</h1>
