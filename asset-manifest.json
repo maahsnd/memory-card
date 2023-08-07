@@ -1,20 +1,21 @@
 {
-  "main.css": "/mrwindupbirdesq/memory-card/static/css/main.4ebc6e0c.chunk.css",
-  "main.js": "/mrwindupbirdesq/memory-card/static/js/main.e0307da7.chunk.js",
-  "main.js.map": "/mrwindupbirdesq/memory-card/static/js/main.e0307da7.chunk.js.map",
-  "static/js/1.c199c0ff.chunk.js": "/mrwindupbirdesq/memory-card/static/js/1.c199c0ff.chunk.js",
-  "static/js/1.c199c0ff.chunk.js.map": "/mrwindupbirdesq/memory-card/static/js/1.c199c0ff.chunk.js.map",
-  "runtime~main.js": "/mrwindupbirdesq/memory-card/static/js/runtime~main.3324948c.js",
-  "runtime~main.js.map": "/mrwindupbirdesq/memory-card/static/js/runtime~main.3324948c.js.map",
-  "static/media/aang.jpeg": "/mrwindupbirdesq/memory-card/static/media/aang.f7523553.jpeg",
-  "static/media/appa.jpeg": "/mrwindupbirdesq/memory-card/static/media/appa.be6ad1a1.jpeg",
-  "static/media/iroh.jpeg": "/mrwindupbirdesq/memory-card/static/media/iroh.5cfbbece.jpeg",
-  "static/media/katara.jpeg": "/mrwindupbirdesq/memory-card/static/media/katara.b963c1f9.jpeg",
-  "static/media/momo.jpeg": "/mrwindupbirdesq/memory-card/static/media/momo.fceef694.jpeg",
-  "static/media/sokka.jpeg": "/mrwindupbirdesq/memory-card/static/media/sokka.1ce8cdfe.jpeg",
-  "static/media/zuko.jpeg": "/mrwindupbirdesq/memory-card/static/media/zuko.69056443.jpeg",
-  "static/css/main.4ebc6e0c.chunk.css.map": "/mrwindupbirdesq/memory-card/static/css/main.4ebc6e0c.chunk.css.map",
-  "index.html": "/mrwindupbirdesq/memory-card/index.html",
-  "precache-manifest.6fb1c4c5f9adab9e70e606b99e825d06.js": "/mrwindupbirdesq/memory-card/precache-manifest.6fb1c4c5f9adab9e70e606b99e825d06.js",
-  "service-worker.js": "/mrwindupbirdesq/memory-card/service-worker.js"
+  "files": {
+    "main.css": "/memory-card/static/css/main.e1135ffe.css",
+    "main.js": "/memory-card/static/js/main.fd65ed66.js",
+    "static/media/background.jpeg": "/memory-card/static/media/background.3251fa1dd340dc08941a.jpeg",
+    "static/media/momo.jpeg": "/memory-card/static/media/momo.146aaa0233c839241dd4.jpeg",
+    "static/media/katara.jpeg": "/memory-card/static/media/katara.1282a9257537feac2090.jpeg",
+    "static/media/aang.jpeg": "/memory-card/static/media/aang.87c3c42e8cfb41f1f047.jpeg",
+    "static/media/iroh.jpeg": "/memory-card/static/media/iroh.44ab60b18d68b544494c.jpeg",
+    "static/media/appa.jpeg": "/memory-card/static/media/appa.ca2b66da20e7261dc9aa.jpeg",
+    "static/media/zuko.jpeg": "/memory-card/static/media/zuko.5c9e20e175f73b2094da.jpeg",
+    "static/media/sokka.jpeg": "/memory-card/static/media/sokka.a71c7e62e89fdcaee117.jpeg",
+    "index.html": "/memory-card/index.html",
+    "main.e1135ffe.css.map": "/memory-card/static/css/main.e1135ffe.css.map",
+    "main.fd65ed66.js.map": "/memory-card/static/js/main.fd65ed66.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1135ffe.css",
+    "static/js/main.fd65ed66.js"
+  ]
 }
