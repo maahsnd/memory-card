@@ -11,11 +11,7 @@ const Randomize = (props) => {
   };
   const data = shuffle(props.cards).map((card) => (
     <div className="card" onClick={props.onClick} key={card.id} id={card.id}>
-      <img
-        src={require('../images/' + card.name + '.jpeg')}
-        alt={card.name}
-        id={card.id}
-      />
+      <img src={card.url} alt={card.name} id={card.id} />
       <h2>{card.name}</h2>
     </div>
   ));
